@@ -1,0 +1,33 @@
+## 1. What is React.js?
+React.js is a free, open-source JavaScript library used to build interactive and dynamic user interfaces (UI), especially for web applications.
+
+It was developed by Facebook (now Meta).
+## Why do we use React?
+- To build interactive websites.
+- To create reusable UI components.
+- To update webpage content without reloading the entire page.
+- To manage application data using state.
+- To build Single Page Applications (SPA).
+
+Example
+Suppose you are developing an e-commerce website.
+
+Your website contains:
+- Navbar
+- Search bar
+- Product cards
+- Shopping cart
+- Footer
+Instead of writing everything in one file, React allows you to create separate reusable components. 
+
+## Traditional JavaScript vs React
+      Traditional JavaScript	                                      React
+1.Often manually updates DOM	                                 1. React manages UI updates
+2.UI logic can become difficult to organize	                     2. Reusable components
+3.DOM updates are handled by developers	                         3. React handles rendering
+4.Large applications can be harder to maintain	                 4. Component-based architecture
+
+## 1.Interview Question: What is React?
+
+Answer: React is an open-source JavaScript library developed by Meta for building fast, interactive, and reusable user interfaces using a component-based architecture.
+

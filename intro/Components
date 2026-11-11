@@ -1,0 +1,67 @@
+## What is a Component?
+A **Component** is a reusable piece of UI. It helps divide a webpage into smaller, manageable parts.
+A React application is divided into multiple small components.
+
+For example, in a portfolio website:
+webportfolios.dev
+Each section can be a separate component:
+- Navbar.jsx
+- Home.jsx
+- About.jsx
+- Skills.jsx
+- Projects.jsx
+- Contact.jsx
+- Footer.jsx
+Think of a component as a JavaScript function that returns JSX (HTML-like code).
+
+# Why Components?
+
+Without components:
+
+- Large files
+- Difficult to maintain
+- Code duplication
+- Hard to debug
+
+With components:
+
+- Reusable
+- Easy to maintain
+- Cleaner code
+- Better organization
+Reusability - use the same component multiple times.
+Maintainability - easier to manage code.
+Readability - keeps code organized.
+Flexibility - update one component independently.
+
+# Types of Components
+
+## 1. Functional Component (Recommended)
+
+<!-- A functional component is simply a JavaScript function. -->
+
+
+functionHeader() {
+return (
+<h1>Hello React</h1>
+    );
+}
+
+exportdefaultHeader;
+
+
+## Arrow Function Component
+
+
+constHeader= () => {
+return (
+<h1>Hello React</h1>
+    );
+};
+
+exportdefaultHeader;
+
+## Interview Question: What is a component in React?
+
+Answer: A component is a reusable and independent piece of UI that can contain its own structure, logic, and styling.
+

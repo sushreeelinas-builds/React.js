@@ -1,0 +1,31 @@
+## What is JSX?
+JSX stands for JavaScript XML.
+JSX is a syntax extension for JavaScript that allows us to write HTML-like code inside JavaScript.
+It makes React code easier to read and write.
+
+1. Example without JSX
+
+import React from "react";
+
+function App() {
+  return React.createElement(
+    "h1",
+    null,
+    "Hello React!"
+  );
+}
+
+export default App;
+
+
+2. Example with JSX
+
+function App() {
+  return (
+    <h1>Hello React!</h1>
+  );
+}
+
+export default App;
+
+Both examples create the same heading.
